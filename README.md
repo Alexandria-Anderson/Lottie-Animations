@@ -38,9 +38,20 @@ This demo shows a simple way to transform an After Effects composition into an a
       The Lottie JSON expects a value between 1 and 0 (inclusive) to determine its rgba values. Convert your values from the 0...255 scale by simply dividing by 255.
       10 new values are listed here, each corresponding to the layer I want to edit in my animation. 
    
-6. When **indexing** the JSON file, change the loop parameters to reflect the properties of your AE composition layers. The Bodymovin plugin preserves your layer names and order, so the loop's range will be unique to your composition. You can view each layer in the "layers" subfield of the JSON data. "nm" and "ind" show you the layer's name and index, respectively. The **ind** fields of your JSON data will help you determine your loop parameters.
+6. When **indexing** the JSON file, change the loop parameters to reflect the properties of your AE composition layers. The Bodymovin plugin preserves your layer names and order, so the loop's range will be unique to your composition. You can view each layer in the "layers" subfield of the JSON data. "nm" and "ind" show you the layer's name and index, respectively. The **ind** fields of your JSON data will help you determine your loop parameters. Note that the **ind** value of the last item should be the upper bound of your loop - you should not use the **ind** value verbatim.
    
 8. To view the animation in a browser using VSCode, use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) plugin. Once enabled, right-click on the index.html file in the file explorer in VSCode. Click **Open with Live Server**, and your animation will update in a browser when **color_values** is changed!
+
+
+##Examples
+
+![Demo](demo_1.png)
+![Demo](demo_2.png)
+
+
+
+
+
 
    Note: Keep your animations simple. Lottie does not support certain AE special effects and transformations.
    
