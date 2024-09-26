@@ -9,7 +9,8 @@
    
 4. Storing your new color values:
    
-   `let color_values = {
+   ```
+   let color_values = {
     0: [.1, .3, .98, 1], 
     1: [.1, .3, .98, 1],
     2: [.1, .3, .98, 1],
@@ -20,7 +21,8 @@
     7: [.1, .6, .6, 1],
     8: [.1, .5, .8, 1],
     9: [.1, .5, .8, 1]
-}`
+   }
+   ```
   **color_values** is where you will store your new color data. 
    The Lottie JSON expects a value between 1 and 0 (inclusive) to determine its rgba values. Convert your values from the 0...255 scale by simply dividing by 255.
    10 new values are listed here, each corresponding to the layer I want to edit in my animation. 
