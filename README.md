@@ -45,11 +45,8 @@ This demo shows a simple way to transform an After Effects composition into an a
 
 ##Examples
 
-![Demo](demo_1.png)
-![Demo](demo_2.png)
-
-
-
+<img src="demo_1.png" width="200" height="100">
+<img src="demo_2.png" width="200" height="100">
 
 
 
