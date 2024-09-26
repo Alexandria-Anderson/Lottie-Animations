@@ -43,9 +43,10 @@ This demo shows a simple way to transform an After Effects composition into an a
 8. To view the animation in a browser using VSCode, use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) plugin. Once enabled, right-click on the index.html file in the file explorer in VSCode. Click **Open with Live Server**, and your animation will update in a browser when **color_values** is changed!
 
 
-##Examples
+## Examples
 
 <img src="demo_1.png" width="400" height="auto">
+
 <img src="demo_2.png" width="400" height="auto">
 
 
